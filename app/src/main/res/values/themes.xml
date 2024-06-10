@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SubAwalGit" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.SubAwalGit" parent="Base.Theme.SubAwalGit" />
+
+    <style name="Theme.App.SplashScreeen" parent = "Theme.SplashScreen">
+        <item name = "windowSplashScreenBackground">@color/purple</item>
+        <item name = "windowSplashScreenAnimatedIcon">@drawable/gitlogo</item>
+        <item name = "postSplashScreenTheme">@style/Base.Theme.SubAwalGit</item>
+    </style>
+</resources>
